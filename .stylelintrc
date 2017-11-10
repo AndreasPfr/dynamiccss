@@ -1,0 +1,63 @@
+{
+  "rules": {
+    "indentation": 2,
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    "color-named": "never",
+    "color-no-invalid-hex": true,
+    "function-blacklist": ["var"],
+    "declaration-property-value-blacklist": [
+      {
+        "/color/": [
+          "/#/"
+        ],
+        "/border/": [
+          "/#/"
+        ],
+        "/background/": [
+          "/#/"
+        ],
+        "z-index": [
+          "/^[0-9]/"
+        ],
+        "font": [
+          "/'adi/"
+        ]
+      },
+      {
+        "message": "Wrong value. Create or reuse variables instead. Please check GDEG GLASS UI Styleguide for further info."
+      }
+    ],
+    "media-feature-name-blacklist": [
+      "max-width",
+      "min-width",
+      "min-height",
+      "max-height"
+    ],
+    "at-rule-semicolon-newline-after": "always",
+    "at-rule-semicolon-space-before": "never",
+    "block-no-empty": true,
+    "block-closing-brace-empty-line-before": "never",
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always-multi-line",
+    "block-closing-brace-space-before": "always-single-line",
+    "block-opening-brace-newline-after": "always-multi-line",
+    "block-opening-brace-space-after": "always-single-line",
+    "block-opening-brace-space-before": "always",
+    "font-family-no-duplicate-names": true,
+    "string-quotes": "single",
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-block-no-duplicate-properties": true,
+    "number-leading-zero": "never",
+    "function-calc-no-unspaced-operator": true,
+    "function-comma-space-after": "always-single-line",
+    "function-url-quotes": "always",
+    "function-whitespace-after": "always",
+    "length-zero-no-unit": true,
+    "value-keyword-case": "lower",
+    "no-extra-semicolons": true,
+    "no-invalid-double-slash-comments": true,
+    "rule-empty-line-before": "always",
+    "declaration-no-important": true
+  }
+}
