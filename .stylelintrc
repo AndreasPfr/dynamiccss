@@ -3,7 +3,6 @@
     "indentation": 2,
     "color-hex-case": "lower",
     "color-hex-length": "long",
-    "color-named": "never",
     "color-no-invalid-hex": true,
     "function-blacklist": ["var"],
     "declaration-property-value-blacklist": [
