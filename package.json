@@ -1,0 +1,16 @@
+{
+  "name": "dynamiccss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint 'theme.css'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "stylelint": "^8.2.0"
+  }
+}
